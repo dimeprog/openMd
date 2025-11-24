@@ -1,3 +1,8 @@
+/// BytePlus EffectOne SDK Helper for iOS
+/// Provides native video recording and editing capabilities
+///
+/// NOTE: This is a simplified iOS implementation that uses UIImagePickerController
+
 import UIKit
 import Foundation
 import Photos
@@ -499,7 +504,6 @@ extension BytePlusHelper: UIImagePickerControllerDelegate, UINavigationControlle
         }
     }
 }
-
 
 
 
